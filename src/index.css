@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+#root {
+  font-family: 'Century Gothic' !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Century Gothic';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1c1c1c;
+}
+
+code {
+  font-family: 'Century Gothic';
+}
+
+/* .Toastify__progress-bar--success {
+  background-color: #087a04;
+}
+.Toastify__progress-bar--error {
+  background-color: #f44336;
+} */
